@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F8F85667A9200D759DA45A /* Pods_cheekh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBBE664E08C5D46DDBE2648 /* Pods_cheekh.framework */; };
+		D433698A212BC2C3005106B8 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4336989212BC2C3005106B8 /* Sound.swift */; };
+		D46747DF21282BE800431740 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46747DE21282BE800431740 /* LoginViewController.swift */; };
+		D47FEE22212B064E00775323 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47FEE21212B064E00775323 /* CircularProgressView.swift */; };
+		D47FEE25212B2C5800775323 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D47FEE24212B2C5800775323 /* appIcon.png */; };
+		D4A86E25212823A900B22EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A86E24212823A900B22EC5 /* AppDelegate.swift */; };
+		D4A86E27212823A900B22EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A86E26212823A900B22EC5 /* ViewController.swift */; };
+		D4A86E2A212823A900B22EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A86E28212823A900B22EC5 /* Main.storyboard */; };
+		D4A86E2C212823AA00B22EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A86E2B212823AA00B22EC5 /* Assets.xcassets */; };
+		D4A86E2F212823AA00B22EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A86E2D212823AA00B22EC5 /* LaunchScreen.storyboard */; };
+		D4A86E372128242A00B22EC5 /* tickle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4A86E362128242800B22EC5 /* tickle.mp3 */; };
+		D4A86E3B212824F300B22EC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4A86E3A212824F300B22EC5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EBBE664E08C5D46DDBE2648 /* Pods_cheekh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cheekh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852575528C360D44B48CD81A /* Pods-cheekh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheekh.release.xcconfig"; path = "Pods/Target Support Files/Pods-cheekh/Pods-cheekh.release.xcconfig"; sourceTree = "<group>"; };
+		A036B6785AB5391C86B35D52 /* Pods-cheekh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheekh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cheekh/Pods-cheekh.debug.xcconfig"; sourceTree = "<group>"; };
+		D4336989212BC2C3005106B8 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		D46747DE21282BE800431740 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D47FEE21212B064E00775323 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		D47FEE24212B2C5800775323 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		D4A86E21212823A900B22EC5 /* cheekh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cheekh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A86E24212823A900B22EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4A86E26212823A900B22EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4A86E29212823A900B22EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A86E2B212823AA00B22EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A86E2E212823AA00B22EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A86E30212823AA00B22EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A86E362128242800B22EC5 /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = "<group>"; };
+		D4A86E3A212824F300B22EC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4A86E3C2128250900B22EC5 /* cheekh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cheekh.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A86E1E212823A900B22EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F8F85667A9200D759DA45A /* Pods_cheekh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2921A402CAADC027DC2E1271 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A036B6785AB5391C86B35D52 /* Pods-cheekh.debug.xcconfig */,
+				852575528C360D44B48CD81A /* Pods-cheekh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DE29491D2A594B6AA01D87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EBBE664E08C5D46DDBE2648 /* Pods_cheekh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D47FEE23212B2C4B00775323 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D47FEE24212B2C5800775323 /* appIcon.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		D4A86E18212823A900B22EC5 = {
+			isa = PBXGroup;
+			children = (
+				D4A86E23212823A900B22EC5 /* cheekh */,
+				D4A86E22212823A900B22EC5 /* Products */,
+				2921A402CAADC027DC2E1271 /* Pods */,
+				3DE29491D2A594B6AA01D87A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A86E22212823A900B22EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A86E21212823A900B22EC5 /* cheekh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A86E23212823A900B22EC5 /* cheekh */ = {
+			isa = PBXGroup;
+			children = (
+				D47FEE23212B2C4B00775323 /* Image */,
+				D4A86E3C2128250900B22EC5 /* cheekh.entitlements */,
+				D4A86E3A212824F300B22EC5 /* GoogleService-Info.plist */,
+				D47FEE21212B064E00775323 /* CircularProgressView.swift */,
+				D4336989212BC2C3005106B8 /* Sound.swift */,
+				D4A86E24212823A900B22EC5 /* AppDelegate.swift */,
+				D46747DE21282BE800431740 /* LoginViewController.swift */,
+				D4A86E26212823A900B22EC5 /* ViewController.swift */,
+				D4A86E28212823A900B22EC5 /* Main.storyboard */,
+				D4A86E2B212823AA00B22EC5 /* Assets.xcassets */,
+				D4A86E2D212823AA00B22EC5 /* LaunchScreen.storyboard */,
+				D4A86E362128242800B22EC5 /* tickle.mp3 */,
+				D4A86E30212823AA00B22EC5 /* Info.plist */,
+			);
+			path = cheekh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A86E20212823A900B22EC5 /* cheekh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A86E33212823AA00B22EC5 /* Build configuration list for PBXNativeTarget "cheekh" */;
+			buildPhases = (
+				DE952031759F1D3DA2FC8EEE /* [CP] Check Pods Manifest.lock */,
+				D4A86E1D212823A900B22EC5 /* Sources */,
+				D4A86E1E212823A900B22EC5 /* Frameworks */,
+				D4A86E1F212823A900B22EC5 /* Resources */,
+				44BB89C3E95803CB69351EBA /* [CP] Embed Pods Frameworks */,
+				F5C24290D1C4AB5CD2983234 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cheekh;
+			productName = cheekh;
+			productReference = D4A86E21212823A900B22EC5 /* cheekh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A86E19212823A900B22EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = fincop;
+				TargetAttributes = {
+					D4A86E20212823A900B22EC5 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D4A86E1C212823A900B22EC5 /* Build configuration list for PBXProject "cheekh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A86E18212823A900B22EC5;
+			productRefGroup = D4A86E22212823A900B22EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A86E20212823A900B22EC5 /* cheekh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A86E1F212823A900B22EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A86E372128242A00B22EC5 /* tickle.mp3 in Resources */,
+				D4A86E2F212823AA00B22EC5 /* LaunchScreen.storyboard in Resources */,
+				D4A86E3B212824F300B22EC5 /* GoogleService-Info.plist in Resources */,
+				D4A86E2C212823AA00B22EC5 /* Assets.xcassets in Resources */,
+				D47FEE25212B2C5800775323 /* appIcon.png in Resources */,
+				D4A86E2A212823A900B22EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44BB89C3E95803CB69351EBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cheekh/Pods-cheekh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerSwift/CountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneVerificationController/PhoneVerificationController.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneVerificationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cheekh/Pods-cheekh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE952031759F1D3DA2FC8EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cheekh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C24290D1C4AB5CD2983234 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-cheekh/Pods-cheekh-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cheekh/Pods-cheekh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A86E1D212823A900B22EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D433698A212BC2C3005106B8 /* Sound.swift in Sources */,
+				D46747DF21282BE800431740 /* LoginViewController.swift in Sources */,
+				D4A86E27212823A900B22EC5 /* ViewController.swift in Sources */,
+				D47FEE22212B064E00775323 /* CircularProgressView.swift in Sources */,
+				D4A86E25212823A900B22EC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4A86E28212823A900B22EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A86E29212823A900B22EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A86E2D212823AA00B22EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A86E2E212823AA00B22EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A86E31212823AA00B22EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A86E32212823AA00B22EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A86E34212823AA00B22EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A036B6785AB5391C86B35D52 /* Pods-cheekh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cheekh/cheekh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YG7G7YB2J;
+				INFOPLIST_FILE = cheekh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobirizer.cheekh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4A86E35212823AA00B22EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852575528C360D44B48CD81A /* Pods-cheekh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = cheekh/cheekh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YG7G7YB2J;
+				INFOPLIST_FILE = cheekh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobirizer.cheekh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A86E1C212823A900B22EC5 /* Build configuration list for PBXProject "cheekh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A86E31212823AA00B22EC5 /* Debug */,
+				D4A86E32212823AA00B22EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A86E33212823AA00B22EC5 /* Build configuration list for PBXNativeTarget "cheekh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A86E34212823AA00B22EC5 /* Debug */,
+				D4A86E35212823AA00B22EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4A86E19212823A900B22EC5 /* Project object */;
+}
